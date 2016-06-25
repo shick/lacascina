@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 <head>
     <title>La Cascina Guest House</title>
@@ -16,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+    <!--lightbox -->
+    <link rel="stylesheet" href="assets/lightbox/dist/css/lightbox.css">
 </head>
 <body>
 <div id="page-wrapper">
@@ -64,13 +61,29 @@
             <section>
                 <div class="box alt">
                     <div class="row 50% uniform">
-                        <div class="12u$"><span class="image fit"><img src="images/restaurantOverview.png"
-                                                                       alt=""/></span></div>
-                        <div class="4u  6u$(xsmall)"><span class="image fit"><img src="images/rest1.jpg" alt=""/></span>
+                        <div class="12u$">
+                            <a class="image fit" href="images/restaurantOverview.png" data-lightbox="restaurant"
+                               data-title="Restaurant - Overview">
+                                <img src="images/restaurantOverview.png" alt=""/>
+                            </a>
                         </div>
-                        <div class="4u  6u$(xsmall)"><span class="image fit"><img src="images/rest2.jpg" alt=""/></span>
+                        <div class="4u  6u$(xsmall)">
+                            <a class="image fit" href="images/rest1.jpg" data-lightbox="restaurant"
+                               data-title="Restaurant - The dinning hall">
+                                <img src="images/rest1.jpg" alt=""/>
+                            </a>
                         </div>
-                        <div class="4u$ 6u(xsmall)"><span class="image fit"><img src="images/rest3.jpg" alt=""/></span>
+                        <div class="4u  6u$(xsmall)">
+                            <a class="image fit" href="images/rest2.jpg" data-lightbox="restaurant"
+                               data-title="Restaurant - Bar">
+                                <img src="images/rest2.jpg" alt=""/>
+                            </a>
+                        </div>
+                        <div class="4u$ 6u(xsmall)">
+                            <a class="image fit" href="images/rest3.jpg" data-lightbox="restaurant"
+                               data-title="Restaurant - Menu">
+                                <img src="images/rest3.jpg" alt=""/>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -85,7 +98,8 @@
                     innovazione che la rende ancor
                     pi&ugrave; interessante. Si pu&ograve; scegliere di gustare i nostri piatti sia nella splendida sala
                     interna,
-                    oppure una cena tra amici, un pranzo di lavoro, una particolare ricorrenza, un matrimonio... <p>Gli ampi
+                    oppure una cena tra amici, un pranzo di lavoro, una particolare ricorrenza, un matrimonio...
+                <p>Gli ampi
                     spazi permettono di ospitare ogni genere di evento.</p>
                 </p>
                 <h4>E' gradita la prenotazione</h4>
@@ -104,34 +118,36 @@
                 </p>
             </section>
 
-        <!-- Footer -->
-        <footer id="footer">
-            <ul class="icons">
-                <li><a href="https://www.facebook.com/la-Cascina-guest-house-108548074070/" target="_blank"
-                       class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-                <!--<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>-->
-                <!--<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
-                <li><a href="mailto: gerardo.scarpinati@gmail.com ?subject=Informazioni"
-                       class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-            </ul>
-            <ul class="copyright">
-                <li>&copy; La Cascina Guest House. All rights reserved.</li>
-                <li>Design <span style="text-decoration: underline; color: #e2b731;">Gerardo Scarpinati</span></li>
-            </ul>
-        </footer>
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="https://www.facebook.com/la-Cascina-guest-house-108548074070/" target="_blank"
+                           class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                    <!--<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>-->
+                    <!--<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+                    <li><a href="mailto: gerardo.scarpinati@gmail.com ?subject=Informazioni"
+                           class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; La Cascina Guest House. All rights reserved.</li>
+                    <li>Design <span style="text-decoration: underline; color: #e2b731;">Gerardo Scarpinati</span></li>
+                </ul>
+            </footer>
 
-    </div>
+        </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8]>
-    <script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="assets/js/main.js"></script>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <!--[if lte IE 8]>
+        <script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.js"></script>
+        <!-- lightbox -->
+        <script src="assets/lightbox/dist/js/lightbox.js"></script>
 
 </body>
 </html>

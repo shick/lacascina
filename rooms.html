@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 <head>
     <title>La Cascina Guest House</title>
@@ -16,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+    <!--lightbox -->
+    <link rel="stylesheet" href="assets/lightbox/dist/css/lightbox.css">
 </head>
 <body>
 <div id="page-wrapper">
@@ -64,13 +61,29 @@
             <section>
                 <div class="box alt">
                     <div class="row 50% uniform">
-                        <div class="12u$"><span class="image fit"><img src="images/roomsOverview.png" alt=""/></span>
+                        <div class="12u$">
+                            <a class="image fit" href="images/roomsOverview.png" data-lightbox="rooms"
+                               data-title="Rooms - The Suite">
+                                <img src="images/roomsOverview.png" alt=""/>
+                            </a>
                         </div>
-                        <div class="4u  6u$(xsmall)"><span class="image fit"><img src="images/room2.jpg" alt=""/></span>
+                        <div class="4u  6u$(xsmall)">
+                            <a class="image fit" href="images/room2.jpg" data-lightbox="rooms"
+                               data-title="Rooms - A standard room">
+                                <img src="images/room2.jpg" alt=""/>
+                            </a>
                         </div>
-                        <div class="4u  6u$(xsmall)"><span class="image fit"><img src="images/room4.jpg" alt=""/></span>
+                        <div class="4u  6u$(xsmall)">
+                            <a class="image fit" href="images/room4.jpg" data-lightbox="rooms"
+                               data-title="Rooms - The Jacuzzi">
+                                <img src="images/room4.jpg" alt=""/>
+                            </a>
                         </div>
-                        <div class="4u$ 6u(xsmall)"><span class="image fit"><img src="images/room3.jpg" alt=""/></span>
+                        <div class="4u$ 6u(xsmall)">
+                            <a class="image fit" href="images/room3.jpg" data-lightbox="rooms"
+                               data-title="Rooms - Standard Room Bathroom">
+                                <img src="images/room3.jpg" alt=""/>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -179,6 +192,8 @@
         <!--[if lte IE 8]>
         <script src="assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="assets/js/main.js"></script>
+        <!-- lightbox -->
+        <script src="assets/lightbox/dist/js/lightbox.js"></script>
 
 </body>
 </html>
